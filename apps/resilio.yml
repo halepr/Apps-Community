@@ -56,6 +56,7 @@
           - '/opt/appdata/{{pgrole}}/sync:/sync'
           - '/opt/appdata/{{pgrole}}/downloads:/downloads'
           - '/mnt:/mnt'
+          - '/mnt/unionfs:/unionfs/'
 
     - name: 'Setting PG ENV'
       set_fact:
